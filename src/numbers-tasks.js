@@ -652,11 +652,11 @@ function getHypotenuse(a, b) {
  * 10 => 5
  * 15 => 8
  */
-function getCountOfOddNumbers(number) {
-  if (number < 0) {
-    return Math.ceil(Math.abs(number) / 2);
+function getCountOfOddNumbers(num) {
+  if (num < 0) {
+    return Math.ceil(Math.abs(num) / 2);
   }
-  return Math.floor((number + 1) / 2);
+  return Math.floor((num + 1) / 2);
 }
 
 module.exports = {
